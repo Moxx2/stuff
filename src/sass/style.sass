@@ -53,9 +53,14 @@
     font-weight: 300
 
 .container
-    min-width: 950px
-@import "variables"
-@import "mixins"
-@import "general"
-@import "media"
-
+    display: block
+    margin: 0 auto
+    max-width: 950px
+    padding: 0 5px 0 5px
+@import 'base/_variables.sass'
+@import 'base/_mixins.sass'
+@import 'blocks/_promo.sass'
+@import 'blocks/_header.sass'
+@import 'blocks/_buttons.sass'
+@import 'blocks/_advantages.sass'
+@import 'base/_media.sass'
